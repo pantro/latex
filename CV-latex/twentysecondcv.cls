@@ -148,7 +148,7 @@
 		%------------------------------------------------
 		
 		\ifthenelse{\equal{\aboutme}{}}{}{
-			\profilesection{Datos personales}
+			\profilesection{Capacidades}
 			\begin{flushleft}
 				\aboutme
 			\end{flushleft}
@@ -156,13 +156,13 @@
 
 		%------------------------------------------------
 
-		\profilesection{Skills}
+		\profilesection{Aptitudes}
 
 		\skills
 		\skillstext
 		\scriptsize
-		(*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]
-			
+		(*)[Las habilidades van en una escala de 0 (Fundamental) hasta 6 (Experto).]
+		
 		%------------------------------------------------
 			
 	\end{textblock}
