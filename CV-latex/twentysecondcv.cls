@@ -70,6 +70,7 @@
 \newcommand{\cvmail}[1]{\renewcommand{\cvmail}{#1}}
 \newcommand{\cvnumberphone}[1]{\renewcommand{\cvnumberphone}{#1}}
 \newcommand{\cvaddress}[1]{\renewcommand{\cvaddress}{#1}}
+\newcommand{\cvgithub}[1]{\renewcommand{\cvgithub}{#1}}
 \newcommand{\cvsite}[1]{\renewcommand{\cvsite}{#1}}
 \newcommand{\aboutme}[1]{\renewcommand{\aboutme}{#1}}
 \newcommand{\profilepic}[1]{\renewcommand{\profilepic}{#1}}
@@ -142,13 +143,15 @@
 			\ifthenelse{\equal{\cvdate}{}}{}{\textsc{\Large\icon{\Info}} & \cvdate\\}
 			\ifthenelse{\equal{\cvaddress}{}}{}{\textsc{\Large\icon{\Letter}} & \cvaddress\\}
 			\ifthenelse{\equal{\cvnumberphone}{}}{}{\textsc{\Large\icon{\Telefon}} & \cvnumberphone\\}
+			\ifthenelse{\equal{\cvmail}{}}{}{\textsc{\large\icon{@}} & \href{mailto:\cvmail}{\cvmail}\\}
+			\ifthenelse{\equal{\cvgithub}{}}{}{\textsc{\Large\icon{\Mundus}} & \cvgithub\\}
 			\ifthenelse{\equal{\cvsite}{}}{}{\textsc{\Large\icon{\Mundus}} & \cvsite\\}
-			\ifthenelse{\equal{\cvmail}{}}{}{\textsc{\large\icon{@}} & \href{mailto:\cvmail}{\cvmail}}
 		\end{tabular}
+
 		%------------------------------------------------
 		
 		\ifthenelse{\equal{\aboutme}{}}{}{
-			\profilesection{Capacidades}
+			\profilesection{Sobre mi}
 			\begin{flushleft}
 				\aboutme
 			\end{flushleft}
@@ -156,13 +159,13 @@
 
 		%------------------------------------------------
 
-		\profilesection{Aptitudes}
+		\profilesection{Habilidades}
 
 		\skills
 		\skillstext
 		\scriptsize
-		(*)[Las habilidades van en una escala de 0 (Fundamental) hasta 6 (Experto).]
-		
+		(*)[La escala de habilidades va de 0 (Fundamental) a 6 (Experto).]
+			
 		%------------------------------------------------
 			
 	\end{textblock}
