@@ -2,7 +2,9 @@
 Utilizado para realizar mi CV
 
 Aqui se trabaja:
-- https://www.overleaf.com
+- Ctrl + shift + P
+- LaTeX Workshop: Build with Recipe
+- latexmk
 
 Archivos importantes:
 - template.tex
