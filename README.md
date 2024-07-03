@@ -2,9 +2,10 @@
 Utilizado para realizar mi CV
 
 Aqui se trabaja:
+- Install Latext Workshop.
 - Ctrl + shift + P
-- LaTeX Workshop: Build with Recipe
-- latexmk
+- Seleccionar: "LaTeX Workshop: Build with Recipe"
+- Luego seleccionar "latexmk"
 
 Archivos importantes:
 - template.tex
